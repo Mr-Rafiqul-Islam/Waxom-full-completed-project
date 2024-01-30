@@ -23,14 +23,14 @@
                 </div>
                 <div class="menu">
                     <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">About Us</a></li>
-                        <li><a href="#">Portflio</a></li>
-                        <li><a href="#">Features</a></li>
-                        <li><a href="#">Blog</a></li>
-                        <li><a href="#">Pricing</a></li>
-                        <li><a href="#">Shortcodes</a></li>
-                        <li><a href="#">Contact</a></li>
+                        <li><a href="#banner">Home</a></li>
+                        <li><a href="#service">About Us</a></li>
+                        <li><a href="#projects">Portflio</a></li>
+                        <li><a href="#feature">Features</a></li>
+                        <li><a href="#blog">Blog</a></li>
+                        <li><a href="#mobile_view">Pricing</a></li>
+                        <li><a href="#brands">Shortcodes</a></li>
+                        <li><a href="#contact">Contact</a></li>
                     </ul>
                 </div>
                 <div class="clr"></div>
@@ -148,16 +148,16 @@
             </div>
             <div class="filter_menu">
                 <ul>
-                    <li><a href="#">All</a></li>
-                    <li><a href="#">Web Design</a></li>
-                    <li><a href="#">Mobile App</a></li>
-                    <li><a href="#">Illustration</a></li>
-                    <li><a href="#">Photography</a></li>
+                    <li><button  data-filter="all">All</button></li>
+                    <li><button data-filter=".web_design">Web Design</button></li>
+                    <li><button data-filter=".mobile_app">Mobile App</button></li>
+                    <li><button data-filter=".illustration">Illustration</button></li>
+                    <li><button data-filter=".photography">Photography</button></li>
                 </ul>
             </div>
             <div class="all_projects">
 
-                <div class="prjct_item">
+                <div class="prjct_item mix web_design mobile_app">
                     <div class="prjct_img">
                         <img src="images/p1.jpg" alt="p1.jpg">
                         <div class="prjct_overlay">
@@ -171,7 +171,7 @@
                     </div>
                 </div>
 
-                <div class="prjct_item">
+                <div class="prjct_item mix photography">
                     <div class="prjct_img">
                         <img src="images/p2.jpg" alt="p2.jpg">
                         <div class="prjct_overlay">
@@ -185,7 +185,7 @@
                     </div>
                 </div>
 
-                <div class="prjct_item">
+                <div class="prjct_item mix illustration">
                     <div class="prjct_img">
                         <img src="images/p3.jpg" alt="p3.jpg">
                         <div class="prjct_overlay">
@@ -199,7 +199,7 @@
                     </div>
                 </div>
 
-                <div class="prjct_item">
+                <div class="prjct_item mix photography">
                     <div class="prjct_img">
                         <img src="images/p4.jpg" alt="p4.jpg">
                         <div class="prjct_overlay">
@@ -213,7 +213,7 @@
                     </div>
                 </div>
 
-                <div class="prjct_item">
+                <div class="prjct_item mix illustration web_design">
                     <div class="prjct_img">
                         <img src="images/p5.jpg" alt="p5.jpg">
                         <div class="prjct_overlay">
@@ -227,7 +227,7 @@
                     </div>
                 </div>
 
-                <div class="prjct_item">
+                <div class="prjct_item mix photography mobile_app">
                     <div class="prjct_img">
                         <img src="images/p6.jpg" alt="p6.jpg">
                         <div class="prjct_overlay">
@@ -533,6 +533,7 @@
 
     <!-- ==========all js starts here==========   -->
     <script src="js/jquery-1.12.4.min.js"></script>
+    <script src="js/mixitup.min.js"></script>
     <script src="js/script.js"></script>
     <!-- ==========all js ends here==========   -->
 
