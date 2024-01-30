@@ -21,3 +21,16 @@ jQuery(document).ready(function($) {
         time: 3000
     });
 });
+
+// Venobox plugins
+new VenoBox({
+    selector: '.my-video-links',
+});
+
+new VenoBox({
+    selector: '.my-image-links',
+    numeration: true,
+    infinigall: true,
+    share: true,
+    spinner: 'rotating-plane'
+});
