@@ -30,6 +30,23 @@ h1,h2,h3,h4,h5,h6,p{
 /* all common css ends here  */
 
 /* =========header part starts=========  */
+
+/* for sticky header */
+
+.sticky_header{
+    background: linear-gradient(90deg, #464440 0%, #121212b3 100%);
+    animation: rafiqul 1s;
+}
+@keyframes rafiqul{
+    from{
+    top: -100px;
+    }
+    
+    to{
+    top: 0;
+    }
+}
+
 #header{
     position: fixed;
     top: 0;
@@ -76,7 +93,7 @@ h1,h2,h3,h4,h5,h6,p{
 }
 .banner_overlay{
     padding: 380px 0px;
-    background: hsla(0, 0%, 7%, 0.7);
+    background: #121212b3;
 }
 .content{
     text-align: center;
